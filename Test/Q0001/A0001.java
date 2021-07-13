@@ -1,4 +1,4 @@
-public class answer {
+public class A0001 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
