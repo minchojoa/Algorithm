@@ -1,6 +1,2 @@
 # Algorithm
-# Algorithm
-# Algorithm
-# Algorithm
-# Algorithm
-# Algorithm
+Personal Algorithm Study
