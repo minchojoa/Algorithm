@@ -4,7 +4,6 @@ import java.util.*;
 public class Main {
 	public static void main(String[] args) throws IOException{
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-		StringBuilder sb = new StringBuilder();
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		Long num[] = new Long[n];
