@@ -12,9 +12,16 @@ public class Main {
 			int end = Integer.parseInt(st.nextToken());
 			int cnt = 0;
 			for(int j = start ; j < end+1 ; j++){
-				String number = String.valueOf(j);
-				for(int k = 0 ; k < number.length() ; k++){
-					if(number.charAt(k)=='0') cnt++;
+				int temp = j;
+				if(temp==0){
+					cnt++;
+					continue;
+				}
+				while(temp>0){
+					if(temp%10==0){
+						cnt++;
+					}
+					temp/=10;
 				}
 			}
 				bw.write(cnt+"\n");
