@@ -20,9 +20,9 @@ public class Main {
 		}
 
 		if(sum%3==0 && zero){
-			Arrays.sort(num, Collections.reverseOrder());
-			for(int n : num){
-				bw.write(n+"");
+			Arrays.sort(num);
+			for(int i = 0 ; i < len ; i++){
+				bw.write(num[len-1-i]+"");
 			}
 		}else{
 			bw.write("-1");
