@@ -23,11 +23,10 @@ public class Main {
 			}
 			bw.write("Triangle #"+index+"\n");
 			if(triangleAble(a, b, c)){
-				bw.write(s+" = "+String.format("%.3f",getSize(a, b, c))+"\n");
+				bw.write(s+" = "+String.format("%.3f",getSize(a, b, c))+"\n\n");
 			}else{
-				bw.write("Impossible.\n");
+				bw.write("Impossible.\n\n");
 			}
-			bw.newLine();
 			index++;
 		}
 		bw.write("");
