@@ -5,7 +5,7 @@ public class Main {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		float x = Float.parseFloat(br.readLine());
-		int N = (int)x;
+		int N = (int)Math.floor(x);
 		bw.write(N+"");
 		bw.close();
 	}
